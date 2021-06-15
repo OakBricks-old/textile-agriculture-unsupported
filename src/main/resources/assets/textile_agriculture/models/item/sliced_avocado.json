@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "textile_agriculture:item/avocado_pit",
+    "layer1": "textile_agriculture:item/avocado_slice"
+  }
+}
