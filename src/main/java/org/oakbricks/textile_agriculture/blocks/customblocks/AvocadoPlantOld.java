@@ -11,15 +11,15 @@ import net.minecraft.world.World;
 
 import java.util.List;
 
-public class AvocadoPlant extends CropBlock {
+public class AvocadoPlantOld extends CropBlock {
 
-    public AvocadoPlant(Block.Settings builder) {
+    public AvocadoPlantOld(Block.Settings builder) {
         super(builder);
     }
 
     public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
         super.appendTooltip(stack, world, tooltip, context);
-        tooltip.add((new TranslatableText("block.ta.avocado_plant").formatted(Formatting.GREEN)));
+        tooltip.add((new TranslatableText("block.ta.rye_plant").formatted(Formatting.GREEN)));
     }
 
 }

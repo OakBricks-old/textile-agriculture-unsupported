@@ -1,12 +1,20 @@
 {
     "variants": {
-        "age=0": { "model": "textile_agriculture:block/avocado_testing/0" },
-        "age=1": { "model": "textile_agriculture:block/avocado_testing/1" },
-        "age=2": { "model": "textile_agriculture:block/avocado_testing/2" },
-        "age=3": { "model": "textile_agriculture:block/avocado_testing/3" },
-        "age=4": { "model": "textile_agriculture:block/avocado_testing/4" },
-        "age=5": { "model": "textile_agriculture:block/avocado_testing/5" },
-        "age=6": { "model": "textile_agriculture:block/avocado_testing/6" },
-        "age=7": { "model": "textile_agriculture:block/avocado_testing/7" }
+        "age=0,half=upper": { "model": "textile_agriculture:block/avocado_testing/u0" },
+        "age=1,half=upper": { "model": "textile_agriculture:block/avocado_testing/u1" },
+        "age=2,half=upper": { "model": "textile_agriculture:block/avocado_testing/u2" },
+        "age=3,half=upper": { "model": "textile_agriculture:block/avocado_testing/u3" },
+        "age=4,half=upper": { "model": "textile_agriculture:block/avocado_testing/u4" },
+        "age=5,half=upper": { "model": "textile_agriculture:block/avocado_testing/u5" },
+        "age=6,half=upper": { "model": "textile_agriculture:block/avocado_testing/u6" },
+        "age=7,half=upper": { "model": "textile_agriculture:block/avocado_testing/u7" },
+        "age=0,half=lower": { "model": "textile_agriculture:block/avocado_testing/l0" },
+        "age=1,half=lower": { "model": "textile_agriculture:block/avocado_testing/l1" },
+        "age=2,half=lower": { "model": "textile_agriculture:block/avocado_testing/l2" },
+        "age=3,half=lower": { "model": "textile_agriculture:block/avocado_testing/l3" },
+        "age=4,half=lower": { "model": "textile_agriculture:block/avocado_testing/l4" },
+        "age=5,half=lower": { "model": "textile_agriculture:block/avocado_testing/l5" },
+        "age=6,half=lower": { "model": "textile_agriculture:block/avocado_testing/l6" },
+        "age=7,half=lower": { "model": "textile_agriculture:block/avocado_testing/l7" }
     }
 }

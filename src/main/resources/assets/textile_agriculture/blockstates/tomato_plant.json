@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "textile_agriculture:block/tomato_testing/tomatoplantbase"
+    }
+  }
+}
