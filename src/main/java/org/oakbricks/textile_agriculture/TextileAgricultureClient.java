@@ -15,10 +15,10 @@ public class TextileAgricultureClient implements ClientModInitializer {
      */
     @Override
     public void onInitializeClient() {
-        BlockRenderLayerMap.INSTANCE.putBlock(TABlocks.AVOCADO_PLANT, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(TABlocks.AVOCADO_PLANT_TALL, RenderLayer.getCutout());
         ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) ->
                 view != null && pos != null
                     ? BiomeColors.getFoliageColor(view, pos)
-                    : FoliageColors.getDefaultColor(), TABlocks.AVOCADO_PLANT);
+                    : FoliageColors.getDefaultColor(), TABlocks.AVOCADO_PLANT_TALL);
     }
 }

@@ -1,6 +1,7 @@
 package org.oakbricks.textile_agriculture.items;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.item.AliasedBlockItem;
 import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -15,7 +16,8 @@ public class TAItems {
     public static final Item SLICED_AVOCADO_PITTED = new Item(new FabricItemSettings().group(ItemGroup.MISC).food(new FoodComponent.Builder().hunger(5).saturationModifier(7).build()));
     public static final Item SLICED_AVOCADO = new Item(new FabricItemSettings().group(ItemGroup.MISC));
     public static final Item WHOLE_AVOCADO = new Item(new FabricItemSettings().group(ItemGroup.MISC));
-    public static final AvocadoSeed AVOCADO_PIT = Registry.register(Registry.ITEM, new Identifier(TextileAgriculture.MOD_ID, "avocado_pit"), new AvocadoSeed(TABlocks.AVOCADO_PLANT, (new Item.Settings().group(ItemGroup.MISC))));
+    public static final Item AVOCADO_PIT = new AliasedBlockItem(TABlocks.AVOCADO_PLANT_TALL, new FabricItemSettings().group(TextileAgriculture.ITEM_GROUP));
+    //public static final AvocadoSeed AVOCADO_PIT = Registry.register(Registry.ITEM, new Identifier(TextileAgriculture.MOD_ID, "avocado_pit"), new AvocadoSeed(TABlocks.AVOCADO_PLANT, (new Item.Settings().group(ItemGroup.MISC))));
 
 
     public static void registerTAItems() {

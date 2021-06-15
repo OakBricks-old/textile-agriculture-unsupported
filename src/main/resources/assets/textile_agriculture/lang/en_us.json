@@ -1,4 +1,10 @@
 {
-  "item.ta.avocado_seed": "Is use to plant an Avocado Plant",
-  "item.textile_agriculture.avocado_pit": "Avocado Pit"
+  "item.ta.avocado_seed": "Seed",
+  "block.ta.avocado_plant": "Crop",
+
+  "block.textile_agriculture.avocado_plant": "Avocado",
+  "item.textile_agriculture.whole_avocado": "Whole Avocado",
+  "item.textile_agriculture.sliced_avocado": "Avocado Slice",
+  "item.textile_agriculture.pitted_sliced_avocado": "Pitted Avocado Slice"
+
 }
