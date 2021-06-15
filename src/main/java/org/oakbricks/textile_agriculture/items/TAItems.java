@@ -25,5 +25,7 @@ public class TAItems {
         Registry.register(Registry.ITEM, new Identifier(TextileAgriculture.MOD_ID, "whole_avocado"), WHOLE_AVOCADO);
         Registry.register(Registry.ITEM, new Identifier(TextileAgriculture.MOD_ID, "pitted_sliced_avocado"), SLICED_AVOCADO_PITTED);
         //public static final AvocadoSeed AVOCADO_PIT = Registry.register(Registry.ITEM, new Identifier(TextileAgriculture.MOD_ID, 'avocado_pit'), new AvocadoSeed(TABlocks.AVOCADO_PLANT, (new Item.Settings().group(ItemGroup.MISC))));
+        Registry.register(Registry.ITEM, new Identifier(TextileAgriculture.MOD_ID, "pitted_sliced_avocado"), SLICED_AVOCADO_PITTED);
+        Registry.register(Registry.ITEM, new Identifier(TextileAgriculture.MOD_ID, "avocado_seed"), AVOCADO_PIT);
     }
 }
