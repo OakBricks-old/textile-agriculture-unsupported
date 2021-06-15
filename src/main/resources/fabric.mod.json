@@ -25,9 +25,6 @@
       "org.oakbricks.textile_agriculture.TextileAgricultureClient"
     ]
   },
-  "mixins": [
-    "textile_agriculture.mixins.json"
-  ],
 
   "depends": {
     "fabricloader": ">=0.11.3",
