@@ -4,3 +4,5 @@
 fabric 1.17 farming mod!
 
 requires fabricapi
+
+legacy mode
